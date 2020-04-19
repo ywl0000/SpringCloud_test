@@ -1,0 +1,10 @@
+server:
+  port: 8004
+
+
+spring:
+  application:
+    name: cloud-provider-payment
+  cloud:
+    zookeeper:
+      connect-string: 106.13.115.118:2181
